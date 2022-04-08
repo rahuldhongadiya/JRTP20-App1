@@ -9,6 +9,7 @@ public class PasswordService {
     long l = 7674649l;
 
     int i=10
+	int k= 20;
 
 	public static String encode(String txt) {
 		Encoder encoder = Base64.getEncoder();
