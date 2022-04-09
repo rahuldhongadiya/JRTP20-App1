@@ -5,11 +5,6 @@ import java.util.Base64.Decoder;
 import java.util.Base64.Encoder;
 
 public class PasswordService {
-int o=12;
-    long l = 7674649l;
-
-    int i=10
-	int k= 20;
 
 	public static String encode(String txt) {
 		Encoder encoder = Base64.getEncoder();
